@@ -50,7 +50,7 @@ Use `jupyter labextension list` to find the folder with extensions.
 (it could be `$HOME/.local/share/jupyter/labextensions`) and run
 
 ```bash
-rm -rf path_to_folder
+rm -rf path_to_folder/jupyterlab_lavender
 ```
 
 Uninstalling with pip will not be complete.
@@ -66,23 +66,6 @@ Oddly, the only solution that consistently worked was repeating this twice:
 uninstall the extension and build as above.
 
 The rest of this README is inherited from the extension template.
-
-
-## Install
-
-To install the extension, execute:
-
-```bash
-pip install lavender
-```
-
-## Uninstall
-
-To remove the extension, execute:
-
-```bash
-pip uninstall lavender
-```
 
 ## Contributing
 
