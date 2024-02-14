@@ -320,14 +320,15 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-editor-cursor-color: #ffe96c; /*var(--jp-ui-font-color0);*/
 
   /* Code mirror specific styles */
-
+	
+  /* Note: Use or lack of use of variable-color may depend on version of JupyterLab */
   --jp-mirror-editor-keyword-color:	#cbff8d;	/* ok */
   --jp-mirror-editor-atom-color:	#c2ff79;	/* this seems not to have effect in any theme */
   --jp-mirror-editor-number-color:	#fff2a8;	/* ok */
   --jp-mirror-editor-def-color:		#e0c6ff;	/* ok */
-  --jp-mirror-editor-variable-color:	#6cffe8;	/* no effect */
-  --jp-mirror-editor-variable-2-color:	#6cffe8;	/* no effect */
-  --jp-mirror-editor-variable-3-color:	#6cffe8;	/* no effect */
+  --jp-mirror-editor-variable-color:	#fff;		/* no effect */
+  --jp-mirror-editor-variable-2-color:	#fff;		/* no effect */
+  --jp-mirror-editor-variable-3-color:	#fff;		/* no effect */
   --jp-mirror-editor-punctuation-color:	#80e7ea;	/* no effect */
   --jp-mirror-editor-property-color:	#abeaff;	/* ok */
   --jp-mirror-editor-operator-color:	#abeaff;	/* ok */
