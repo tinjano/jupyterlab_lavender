@@ -1,8 +1,7 @@
 {
     "name": "jupyterlab_lavender",
     "version": "0.1.0",
-    "description": "JupyterLab theme extension with dark background and low saturation
-",
+    "description": "JupyterLab theme extension with dark background and low saturation",
     "keywords": [
         "jupyter",
         "jupyterlab",

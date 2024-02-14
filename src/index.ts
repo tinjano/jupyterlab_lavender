@@ -10,8 +10,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab_lavender:plugin',
-  description: 'JupyterLab theme extension with dark background and low saturation
-',
+  description: 'JupyterLab theme extension with dark background and low saturation',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
